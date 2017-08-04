@@ -1,0 +1,17 @@
+{
+    "name": "ryan/forecast",
+    "description": "Weather Provider",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ryanalonzo",
+            "email": "r_alonzo@outlook.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "require": {}
+}
