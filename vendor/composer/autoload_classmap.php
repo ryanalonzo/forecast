@@ -6,4 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Forecaster' => $baseDir . '/src/Forecaster.php',
+    'OpenWeatherApi' => $baseDir . '/src/OpenWeatherApi.php',
+    'WeatherProviderInterface' => $baseDir . '/src/WeatherProviderInterface.php',
 );

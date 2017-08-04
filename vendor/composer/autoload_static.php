@@ -6,9 +6,16 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitd80a92fdb4d1204d3ad6ef00e0d65c3f
 {
+    public static $classMap = array (
+        'Forecaster' => __DIR__ . '/../..' . '/src/Forecaster.php',
+        'OpenWeatherApi' => __DIR__ . '/../..' . '/src/OpenWeatherApi.php',
+        'WeatherProviderInterface' => __DIR__ . '/../..' . '/src/WeatherProviderInterface.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->classMap = ComposerStaticInitd80a92fdb4d1204d3ad6ef00e0d65c3f::$classMap;
 
         }, null, ClassLoader::class);
     }
