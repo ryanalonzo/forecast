@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitd80a92fdb4d1204d3ad6ef00e0d65c3f
 {
     public static $classMap = array (
+        'ApixuApi' => __DIR__ . '/../..' . '/src/ApixuApi.php',
         'Forecaster' => __DIR__ . '/../..' . '/src/Forecaster.php',
         'OpenWeatherApi' => __DIR__ . '/../..' . '/src/OpenWeatherApi.php',
         'WeatherProviderInterface' => __DIR__ . '/../..' . '/src/WeatherProviderInterface.php',
