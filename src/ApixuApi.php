@@ -26,6 +26,7 @@ class ApixuApi implements WeatherProviderInterface
             'city' => $results->location->name,
             'temp_c' => $results->current->temp_c,
             'pressure' => $results->condition->pressure_mb,
+            'humidity' => $results->condition->humidity
         ];
     }
 }

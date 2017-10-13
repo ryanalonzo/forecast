@@ -26,7 +26,8 @@ class OpenWeatherApi implements WeatherProviderInterface
             'city' => $results->name,
             'temp_c' => $results->main->temp,
             'pressure' => $results->main->pressure,
-            'visibility' => $results->visibility
+            'visibility' => $results->visibility,
+            'humidity' => $results->main->humidity
         ];
     }
 }
